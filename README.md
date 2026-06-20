@@ -12,7 +12,29 @@
 
 ## 安装方法
 
-### 方法一：下载 ZIP
+### 推荐方法：让 Codex 帮你安装
+
+把这个仓库地址发给 Codex：
+
+```text
+https://github.com/HuYee2025/fufu-codex-pet
+```
+
+然后告诉 Codex：
+
+```text
+帮我安装这个 Codex 宠物
+```
+
+Codex 会下载仓库，并把里面的 `fufu` 文件夹放到你的本地宠物目录：
+
+```text
+~/.codex/pets/fufu/
+```
+
+安装完成后，刷新或重启 Codex，在自定义宠物里选择 `福福`。
+
+### 方法一：下载 ZIP 手动安装
 
 1. 在 GitHub 页面点击 `Code` -> `Download ZIP`。
 2. 解压后找到里面的 `fufu` 文件夹。
@@ -34,7 +56,7 @@ cp -R fufu ~/.codex/pets/
 4. 重启或刷新 Codex。
 5. 在自定义宠物里选择 `福福`。
 
-### 方法二：用 Git 安装
+### 方法二：用 Git 手动安装
 
 ```bash
 git clone https://github.com/HuYee2025/fufu-codex-pet.git
