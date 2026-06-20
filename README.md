@@ -50,7 +50,7 @@ cp -R fufu ~/.codex/pets/
 ```text
 ~/.codex/pets/fufu/
   pet.json
-  spritesheet.webp
+  spritesheet.png
 ```
 
 4. 重启或刷新 Codex。
@@ -71,7 +71,7 @@ cp -R fufu-codex-pet/fufu ~/.codex/pets/
 ```text
 fufu/
   pet.json           # Codex 宠物配置
-  spritesheet.webp   # 8 x 9 动画图集
+  spritesheet.png    # 8 x 9 透明 PNG 动画图集
 assets/
   preview-contact-sheet.png
 ```
